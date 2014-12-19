@@ -14,7 +14,7 @@ INCLUDES = @APR_INCLUDES@
 AUTOMAKE_OPTIONS = dist-bzip2 dist-tarZ dist-zip
 ACLOCAL_AMFLAGS = -I m4
 
-GANGLIA_SUBDIRS = lib libmetrics tests $(GMETAD_SUBDIR) gmond gstat gmetric include mans
+GANGLIA_SUBDIRS = lib libmetrics tests $(GMETAD_SUBDIR) gmond gstat gdistcc gmetric include mans
 SUBDIRS = $(GANGLIA_SUBDIRS)
 # Make sure that no matter the setting for --with-gmetad
 # that the gmetad directory gets distributed

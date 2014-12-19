@@ -876,6 +876,7 @@ AC_OUTPUT(Makefile
           lib/Makefile
           gmond/Makefile
           gstat/Makefile
+          gdistcc/Makefile
           gmond/modules/Makefile
           gmond/modules/example/Makefile
           gmond/modules/cpu/Makefile
